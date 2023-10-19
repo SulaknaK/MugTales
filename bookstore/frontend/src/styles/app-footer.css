@@ -1,0 +1,56 @@
+.footer {
+    background:black;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: white;
+    padding: 5px;
+    font-family: 'Dosis';
+    font-size: 14px;
+}
+
+.links, .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4em;
+    justify-content:center;
+}
+
+.social-media-icons {
+    text-align: center;
+    margin-top: 5px;
+    gap: 2.25em;
+}
+
+.social-media-icon{
+    margin-right: 15px;
+    font-size: 24px;
+    color: #C6E2E9;
+}
+
+.social-media-icon:hover{
+    color: #f3b3b0;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover{
+    color: #f3b3b0;
+}
+
+.links {
+    gap: 0;
+}
+
+.copyright{
+    margin-right: 0;
+}
+
+.separator{
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,185 @@
+.hero-section {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.hero-image{
+    width:400px;
+    height:auto;
+}
+
+.hero-column {
+    flex: 1;
+    padding: 20px;
+    color: #333;
+    width: 50%;
+}
+
+.hero-column-left {
+    background-color: #C6E2E9;
+    font-size: 36px;
+    padding: 5%;
+    font-weight: bolder;
+    font-family:var(--title-font-family);
+}
+
+.hero-column-right {
+    position: relative;
+    background-color: #FEC8D8;
+}
+
+.hero-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10%;
+    font-size: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-family: var(--subtitle-font-family);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s;
+}
+
+.hero-button:hover{
+    background-color: #01A612;
+    border: none;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+
+@keyframes sparkle {
+    0% {
+        opacity: 1;
+        color: yellow;
+    }
+    50% {
+        opacity: 0.4;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        color: #f68b00;
+    }
+}
+
+.wrapper span{
+    position: relative;
+}
+
+.star1 {
+    top: 189px;
+    left: 30px;
+    color: #f68b00;
+    animation: sparkle 3s linear infinite 5s;
+}
+
+.star2 {
+    top: 50px;
+    left: 50px;
+    color: #f68b00;
+    animation: sparkle 3s linear infinite 6s;
+}
+
+.star3 {
+    top: 50px;
+    left: 200px;
+    color: #f68b00;
+    animation: sparkle 3s linear infinite 7s;
+}
+
+
+.star4 {
+    top: 100px;
+    left: 212px;
+    color: #f68b00;
+    animation: sparkle 3s linear infinite 4s;
+}
+
+.star5 {
+    top: 40px;
+    left: 270px;
+    color: #f68b00;
+    animation: sparkle 3s linear infinite 10s;
+}
+
+.star6 {
+    top: 150px;
+    left: 285px;
+    color: #f68b00;
+    animation: sparkle 3s linear infinite 3s;
+}
+
+.typing h1 {
+    width: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.typing h1:nth-child(1) {
+    width:8em;
+    animation: type1 3s;
+    animation-fill-mode: forwards;
+
+}
+
+.typing h1:nth-child(2) {
+    width:8em;
+    opacity: 0;
+    animation: type2 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+}
+
+.typing h1:nth-child(3) {
+    width:7.3em;
+    opacity: 0;
+    animation: type3 2s ;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+
+}
+
+
+
+@keyframes type1{
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes type2{
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    1%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes type3{
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    1%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}

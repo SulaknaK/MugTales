@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Irish Grover");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700;800&display=swap");
+
+
+body {
+  margin: 0 auto;
+  max-width: 70rem;
+  font-family: var(--default-font-family);
+  font-size: var(--default-font-size);
+}
+
+:root {
+  --title-font-family: "Inconsolata";
+  --subtitle-font-family: "Roboto";
+  --logo-font-family: "Irish Grover";
+  --default-font-family: "Inconsolata";
+  --default-font-size: 1.25rem;
+  --default-text-color: #111;
+  --neutral-color: #4e4e4e;
+  --primary-color: black;
+  --primary-color-dark: darkblue;
+  --primary-background-color: whitesmoke;
+  --secondary-background-color: burlywood;
+  --card-background-color: navajowhite;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--title-font-family);
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

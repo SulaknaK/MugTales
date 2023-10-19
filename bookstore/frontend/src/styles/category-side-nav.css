@@ -1,0 +1,30 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 15vw;
+    background-color: #fdeae9;
+    height: 70vh;
+    overflow: auto;
+}
+
+.sidebar-buttons {
+    display: block;
+    color: black;
+    padding: 25px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.sidebar-active-button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-buttons:hover:not(.sidebar-active-button) {
+    background-color: #ddd;
+    border-radius: 15px;
+    margin: 10px;
+}

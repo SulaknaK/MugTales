@@ -1,0 +1,77 @@
+
+.bookcard-row {
+    display:flex;
+    flex-direction: row;
+}
+
+.bookcard-column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+}
+
+.bookcard-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 320px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.bookcard-bookImage{
+    height: 180px;
+    width: 150px;
+}
+
+.bookcard-name{
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 85px;
+}
+.bookcard-price{
+    color: #01A612;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.bookcard-auther{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.bookcard-add-to-cart-btn{
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    padding: 10px 25px;
+    font-size: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 5%;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.bookcard-add-to-cart-btn:hover{
+    background-color: #f3b3b0;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+.bookcard-read-now-btn{
+    background-color: #FCF316;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
