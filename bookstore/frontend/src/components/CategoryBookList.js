@@ -1,8 +1,10 @@
 import React from "react";
-import { BookList } from "../Data/books.js";
+import { CartState } from "../context/Context.js";
 import CategoryBookListItem from "./CategoryBookListItem.js";
 
 function CategoryBookList() {
+
+    const {state: {products}} = CartState();
 
     const bookGrid = {
         display: "grid",
@@ -14,7 +16,7 @@ function CategoryBookList() {
 
   return (
     <div style={bookGrid}>
-      {BookList.books.map((book) => (
+      {products.map((book) => (
         <CategoryBookListItem book={book} key={book.id}/>
       ))}
     </div>

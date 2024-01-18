@@ -4,8 +4,10 @@ import HeaderDropdown from "./HeaderDropdown";
 import HeaderSearchBar from "./HeaderSearchBar";
 import logo from '../assets/site-images/logo.png';
 import "../styles/navbar.css";
+import { CartState } from "../context/Context.js";
 
 function Navbar() {
+  const{state:{cart}} = CartState();
   return (
     <div className="header">
       <div className="topnav clearfix">
@@ -36,7 +38,7 @@ function Navbar() {
             <Link to="/">
               <div className="cart-container">
                 <i className="fa-solid fa-cart-shopping cart-icon"></i>
-                <div className="cart-number">4</div>
+                <div className="cart-number">{cart.length}</div>
               </div>
             </Link>
           </li>

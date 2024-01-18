@@ -1,7 +1,10 @@
 import React from 'react';
 import "../styles/category-book-list-item.css";
+import { CartState } from '../context/Context.js';
 
 function CategoryBookListItem({ book}) {
+
+  const {state: {cart}, dispatch} = CartState();
   const images = require.context('../assets/book-images', true);
   console.log(images)
 
@@ -40,7 +43,18 @@ function CategoryBookListItem({ book}) {
           <p className="bookcard-auther">{book.author}</p>
           <div className="bookcard-bottom-content">
             <p className="bookcard-price">${(book.price / 100).toFixed(2)}</p>
-            <button className="bookcard-add-to-cart-btn">Add to cart</button>
+            {
+              cart.some((p) => p.bookId === book.bookId) ? (
+                <button 
+                onClick={() =>{dispatch({type:"REMOVE_FROM_CART", payload: book});}}
+                className="bookcard-add-to-cart-btn">Remove from cart</button>
+              ):(
+                <button
+                onClick={() =>{dispatch({type:"ADD_TO_CART", payload: book});}} 
+                className="bookcard-add-to-cart-btn">Add to cart</button>
+              )
+            }
+            
           </div>
         </div>
       </div>
