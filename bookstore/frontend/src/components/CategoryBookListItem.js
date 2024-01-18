@@ -42,7 +42,7 @@ function CategoryBookListItem({ book}) {
           <p className="bookcard-name">{bookTitle}</p>
           <p className="bookcard-auther">{book.author}</p>
           <div className="bookcard-bottom-content">
-            <p className="bookcard-price">${(book.price / 100).toFixed(2)}</p>
+            <p className="bookcard-price">${(book.price).toFixed(2)}</p>
             {
               cart.some((p) => p.bookId === book.bookId) ? (
                 <button 

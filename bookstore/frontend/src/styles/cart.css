@@ -1,0 +1,44 @@
+.cart-container {
+    display: flex;
+  }
+  
+  .cart-column-right {
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .cart-column-left {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: aliceblue;
+  }
+
+  #cart-table tr {
+    border: 1px solid #ddd;
+  }
+
+  #cart-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+
+  .cart-bookImage{
+    height: 150px;
+  }
+
+  .cart-delete{
+    border: none;
+    background: none;
+  }
+
+  .cart-delete:hover{
+    border: none;
+    background: none;
+    color: red;
+  }

@@ -20,7 +20,7 @@ export const BookList ={
           "bookId": 1003,
           "title": "The Famous Five Treasury",
           "author": "by Enid Blyton",
-          "price": 2.45,
+          "price": 12.45,
           "isPublic": false,
           "categoryId": 1001
         },
@@ -28,7 +28,7 @@ export const BookList ={
           "bookId": 1004,
           "title": "Divergent",
           "author": "J.R.R. Tolkien",
-          "price": 8.99,
+          "price": 18.99,
           "isPublic": true,
           "categoryId": 1001
         }

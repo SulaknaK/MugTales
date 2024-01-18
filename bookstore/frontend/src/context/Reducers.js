@@ -11,7 +11,7 @@ export const cartReducer = (state, action) => {
         return {
           ...state,
           cart: state.cart.filter((c) =>
-            c.id === action.payload.id ? (c.qty = action.payload.qty) : c.qty
+            c.bookId === action.payload.bookId ? (c.qty = action.payload.qty) : c.qty
           ),
         };
       default:

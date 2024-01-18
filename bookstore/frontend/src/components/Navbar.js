@@ -35,7 +35,7 @@ function Navbar() {
             <HeaderSearchBar></HeaderSearchBar>
           </li>
           <li className="nav-list">
-            <Link to="/">
+            <Link to="/cart">
               <div className="cart-container">
                 <i className="fa-solid fa-cart-shopping cart-icon"></i>
                 <div className="cart-number">{cart.length}</div>
