@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MugTales/bookstore/frontend/static/css/main.3cf22c3f.css",
+    "main.css": "/MugTales/bookstore/frontend/static/css/main.75df99ba.css",
     "main.js": "/MugTales/bookstore/frontend/static/js/main.323c4b93.js",
     "static/js/787.08f3454f.chunk.js": "/MugTales/bookstore/frontend/static/js/787.08f3454f.chunk.js",
     "static/media/the-spectacular.jpg": "/MugTales/bookstore/frontend/static/media/the-spectacular.a99e56e0ab96859db13d.jpg",
@@ -38,12 +38,12 @@
     "static/media/fa-v4compatibility.ttf": "/MugTales/bookstore/frontend/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/MugTales/bookstore/frontend/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/MugTales/bookstore/frontend/index.html",
-    "main.3cf22c3f.css.map": "/MugTales/bookstore/frontend/static/css/main.3cf22c3f.css.map",
+    "main.75df99ba.css.map": "/MugTales/bookstore/frontend/static/css/main.75df99ba.css.map",
     "main.323c4b93.js.map": "/MugTales/bookstore/frontend/static/js/main.323c4b93.js.map",
     "787.08f3454f.chunk.js.map": "/MugTales/bookstore/frontend/static/js/787.08f3454f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cf22c3f.css",
+    "static/css/main.75df99ba.css",
     "static/js/main.323c4b93.js"
   ]
 }
