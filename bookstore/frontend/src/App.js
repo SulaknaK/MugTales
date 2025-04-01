@@ -9,7 +9,7 @@ import Cart from "./pages/Cart.js";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/MugTales">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
