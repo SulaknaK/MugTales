@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MugTales/static/css/main.571aaabf.css",
-    "main.js": "/MugTales/static/js/main.55c23c2b.js",
+    "main.js": "/MugTales/static/js/main.44841ca7.js",
     "static/js/787.08f3454f.chunk.js": "/MugTales/static/js/787.08f3454f.chunk.js",
     "static/media/the-spectacular.jpg": "/MugTales/static/media/the-spectacular.a99e56e0ab96859db13d.jpg",
     "static/media/fa-solid-900.ttf": "/MugTales/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -39,11 +39,11 @@
     "static/media/fa-v4compatibility.woff2": "/MugTales/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/MugTales/index.html",
     "main.571aaabf.css.map": "/MugTales/static/css/main.571aaabf.css.map",
-    "main.55c23c2b.js.map": "/MugTales/static/js/main.55c23c2b.js.map",
+    "main.44841ca7.js.map": "/MugTales/static/js/main.44841ca7.js.map",
     "787.08f3454f.chunk.js.map": "/MugTales/static/js/787.08f3454f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.571aaabf.css",
-    "static/js/main.55c23c2b.js"
+    "static/js/main.44841ca7.js"
   ]
 }
